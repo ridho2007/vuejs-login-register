@@ -1,0 +1,16 @@
+{
+  "akuns": [
+    {
+      "username": "admin",
+      "password": "123",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "ada",
+      "password": "1234",
+      "role": "siswa",
+      "id": 2
+    }
+  ]
+}
