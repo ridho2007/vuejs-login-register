@@ -1,4 +1,5 @@
 <template>
+
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
@@ -20,7 +21,7 @@
           </li>
           <li class="nav-item" v-if="adminAccess"><router-link class="nav-link active" aria-current="page"  to="/about">About</router-link></li>
           <li class="nav-item" v-if="adminAccess ">
-            <router-link class="nav-link active" aria-current="page" to="/contact">Contact</router-link>
+            <router-link class="nav-link active" aria-current="page" to="/about">motor</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link active" aria-current="page" to="/produk">Produk</router-link>

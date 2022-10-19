@@ -1,6 +1,9 @@
 import Login from "../components/Login.vue";
 import Register from "../components/Register.vue";
 import HomePage from "../view/Home.vue";
+import ProdukPage from "../components/produk.vue";
+import detailPage from "../components/detail.vue";
+
 
 import Vue from "vue";
 import Router from "vue-router";
@@ -22,7 +25,18 @@ const routes = [
     path: "/home",
     name: "HomePage",
     component: HomePage
+  },
+  {
+    path: "/produk",
+    name: "Produk",
+    component: ProdukPage
+  },
+  {
+    path: "/detail",
+    name: "detail",
+    component: detailPage
   }
+ 
   
 ];
 // const rounter = createRouter({
